@@ -13,6 +13,16 @@
     "verbatimModuleSyntax": true,
     "noEmit": true,
 
+    /* Custom options */
+    "declaration": true,
+    "declarationMap": true,
+//    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": false,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+
     /* Linting */
     "skipLibCheck": true,
     "strict": true,
