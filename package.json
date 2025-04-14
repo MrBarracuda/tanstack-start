@@ -11,7 +11,9 @@
     "format": "ultracite format",
     "check": "biome check",
     "dev": "vinxi dev",
-    "clean": "git clean -xdf node_modules .output .vinxi"
+    "clean": "git clean -xdf node_modules .output .vinxi",
+    "bump-ui": "npx shadcn@latest add --all --overwrite",
+    "bump-deps": "npx npm-check-updates --deep -u -x react-day-picker && pnpm install"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.0",
